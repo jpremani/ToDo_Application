@@ -1,0 +1,28 @@
+.TaskList_container {
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgb(51, 46, 46);
+
+  border-radius: 10px;
+}
+.todo_container {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.todo_icon {
+  display: flex;
+  gap: 40px;
+  margin-right: -90px;
+}
+@media (max-width: 429px) {
+  .TaskList_container {
+    width: 90%;
+  }
+  .todo_icon {
+    margin-right: 20px;
+  }
+  .todo_icon i {
+    margin-right: -20px;
+  }
+}

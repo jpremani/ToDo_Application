@@ -1,0 +1,50 @@
+.TaskInput {
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgb(51, 46, 46);
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.Taskinput {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.TaskInput button {
+  background-color: orange;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin-top: auto;
+  color: white;
+  border-radius: 20px;
+}
+.Taskinput input,
+.Taskinput select {
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 8px yellow;
+}
+.TaskInput button:hover {
+  box-shadow: 0 0 10px yellow;
+}
+@media (max-width: 429px) {
+  .TaskInput {
+    width: 90%;
+  }
+  .TaskInput button {
+    margin-left: auto;
+  }
+}
+@media (max-width: 429px) {
+  .Taskinput input {
+    width: 170px;
+  }
+}
